@@ -1,9 +1,11 @@
 :root{
-    --bcg-color: #001122;
-    --primary-color: #155e75;
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    --primary-color: #006aff;
     --border-radius: 8px;
     --secondary-color: #fff;
-    --border-color: #7fb7c9;
 }
 *{
     margin: 0;
@@ -26,6 +28,7 @@ body{
     padding: 30px;
     width: 400px;
     border-radius: var(--border-radius);
+    background: transparent;
 }
 
 .qr-header h1{
